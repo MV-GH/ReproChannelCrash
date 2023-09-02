@@ -14,7 +14,7 @@ import me.saket.telephoto.zoomable.coil.ZoomableAsyncImage
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
-        window.decorView.layoutDirection = View.LAYOUT_DIRECTION_RTL;
+        window.decorView.layoutDirection = View.LAYOUT_DIRECTION_RTL
         super.onCreate(savedInstanceState)
         setContent {
             ReproChannelCrashTheme {
